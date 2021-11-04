@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;700;800&display=swap");
+
+:root {
+  --color-bg: #f8efea;
+  --color-text: #333;
+  --color-block: #7b9e89;
+  --color-btn: rgba(199, 112, 44);
+}
+
+body {
+  font-family: "Abhaya Libre", system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.h0 {
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 800;
+}
+
+.h1 {
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 800;
+}
+
+.h2 {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 800;
+}
+
+.h3 {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.note {
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--color-btn);
+}
+
+a {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: var(--color-btn) !important;
+  border-color: var(--color-btn) !important;
+}
+
+section {
+  margin: 35px 0;
+}
+
+.block {
+  background-color: var(--color-block);
+  color: white;
+  a {
+    color: white;
+  }
+  &-info {
+    padding: 30px 20px 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    .hotel & {
+      text-align: left;
+      align-items: flex-start;
+    }
+  }
+}
+
+.center {
+  text-align: center;
+}
