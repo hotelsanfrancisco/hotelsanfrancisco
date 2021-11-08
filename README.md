@@ -1,14 +1,15 @@
-# Default starter for Gridsome
+# Posada San Francisco
 
-This is the project you get when you run `gridsome create new-project`.
+Este es el repositorio de la web de la Posada San Francisco, construida con Gridsome con la ayuda de Font Awesome y Boostrap 5.
 
-### 1. Install Gridsome CLI tool if you don't have
+## Cómo usarla
 
-`npm install --global @gridsome/cli`
+Previamente instalando `Yarn`
 
-### 2. Create a Gridsome project
+- `yarn` para instalar los paquetes
+- `yarn serve` para ejecutarla localmente
+- `yarn build` para compilar
 
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+## Cómo se publica
+
+Usando Github actions. Cada vez que se haga un push a la branch main, se compilará la web y se subirá al FTP.
