@@ -29,10 +29,7 @@
         <div class="row">
           <div class="col-12 col-sm-6 mb-4 contacto">
             <div class="h1">Llámenos para reservar</div>
-            <div class="h0">
-              414 27 302 31 <br />
-              Juan Pablo
-            </div>
+            <div class="h0">414 27 302 31 <br /></div>
 
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3736.5586510631324!2d-99.89508348572961!3d20.524311186273785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d39dfd7d0a92cf%3A0x4f4c837c0f0fcb33!2sPosada%20San%20Francisco!5e0!3m2!1sen!2ses!4v1635988316111!5m2!1sen!2ses"
