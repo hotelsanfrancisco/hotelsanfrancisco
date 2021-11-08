@@ -6,7 +6,7 @@
 
 module.exports = {
   siteName: 'Hotel San Francisco',
-  siteDescription: 'A starter project for Gridsome with Bootstrap and some other useful tools.',
-  siteUrl: 'https://gridsome-starter-bootstrap.loke.dev',
+  siteDescription: 'Disfruta de tu estancia en el hotel posada San Francisco, Tequisquiapan',
+  siteUrl: 'https://posada-sf.com/',
   plugins: []
 }
