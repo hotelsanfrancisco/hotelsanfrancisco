@@ -3,7 +3,7 @@
     <div class="card h-100">
       <g-image :src="setImage" class="card-img-top" />
       <div class="card-body">
-        <div class="h2">
+        <div class="h3">
           {{ title }}
         </div>
         <div class="note">Desde {{ price }} pesos</div>

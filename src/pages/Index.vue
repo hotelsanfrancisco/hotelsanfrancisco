@@ -7,20 +7,45 @@
         equipo de colaboradores nos dedicaremos a garantizar que su estadía sea
         confortable, relajada y placentera.
       </p>
-      <p><a href="/nuestro-hotel#lee-mas">Leer más acerca del hotel</a></p>
+      <p>
+        <a class="border-bottom" href="/nuestro-hotel#lee-mas"
+          >Leer más acerca del hotel</a
+        >
+      </p>
     </Intro>
     <section>
       <div class="container">
         <div class="row">
           <div class="col">
-            <div id="habitaciones" class="h2 center mb-3">Habitaciones</div>
+            <div id="habitaciones" class="h2 center mb-5">Habitaciones</div>
           </div>
         </div>
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
-          <Card title="Habitación Doble" price="1100" image="room-2.jpeg" />
-          <Card title="Habitación Triple" price="1500" image="room-3.jpeg" />
-          <Card title="Habitación Cuadruple" price="1800" image="room-2.jpeg" />
-          <Card title="Habitación Quintuple" price="2000" image="room-5.jpeg" />
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+          <Card
+            title="Habitación Sencilla, cama matrimonial"
+            price="1200"
+            image="room-1.jpeg"
+          />
+          <Card
+            title="Habitación Doble, cama matrimonial e individual"
+            price="1500"
+            image="room-2.jpeg"
+          />
+          <Card
+            title="Habitación Doble, dos matrimoniales"
+            price="1700"
+            image="room-3.jpeg"
+          />
+          <Card
+            title="Habitación Triple, cama matrimonial y dos individuales"
+            price="1700"
+            image="room-4.jpeg"
+          />
+          <Card
+            title="Habitación Cuádruple, cama matrimonial y tres individuales"
+            price="1700"
+            image="room-5.jpeg"
+          />
         </div>
       </div>
     </section>
@@ -28,7 +53,7 @@
       <div class="container">
         <div class="row">
           <div class="col">
-            <div id="galeria" class="h2 center mb-3">Galería</div>
+            <div id="galeria" class="h2 center mb-5">Galería</div>
           </div>
           <div class="col">
             <VueSlickCarousel v-bind="settings" class="slick">
@@ -39,8 +64,10 @@
               <img alt="fotos hostal" src="@/assets/photos/piscina-2.jpeg" />
               <img alt="fotos hostal" src="@/assets/photos/exterior-6.jpeg" />
               <img alt="fotos hostal" src="@/assets/photos/intro.jpeg" />
+              <img alt="fotos hostal" src="@/assets/photos/room-1.jpeg" />
               <img alt="fotos hostal" src="@/assets/photos/room-2.jpeg" />
               <img alt="fotos hostal" src="@/assets/photos/room-3.jpeg" />
+              <img alt="fotos hostal" src="@/assets/photos/room-4.jpeg" />
               <img alt="fotos hostal" src="@/assets/photos/room-5.jpeg" />
             </VueSlickCarousel>
           </div>

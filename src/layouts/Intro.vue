@@ -56,7 +56,7 @@ export default {
 
 @media screen and (max-width: 768px) {
   .intro-left {
-    padding: 0 4%;
+    padding: 3.5rem 15px;
   }
   .intro-right {
     min-height: 250px;
