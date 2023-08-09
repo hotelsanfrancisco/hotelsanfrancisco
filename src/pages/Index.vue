@@ -43,7 +43,7 @@
           />
           <Card
             title="Habitación Cuádruple, cama matrimonial y tres individuales"
-            price="1700"
+            price="1900"
             image="room-5.jpeg"
           />
         </div>
