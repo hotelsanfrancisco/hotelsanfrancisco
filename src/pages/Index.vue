@@ -23,27 +23,27 @@
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
           <Card
             title="Habitación Sencilla, cama matrimonial"
-            price="1200"
+            price="1500"
             image="room-1.jpeg"
           />
           <Card
             title="Habitación Doble, cama matrimonial e individual"
-            price="1500"
+            price="1700"
             image="room-2.jpeg"
           />
           <Card
             title="Habitación Doble, dos matrimoniales"
-            price="1700"
+            price="2000"
             image="room-3.jpeg"
           />
           <Card
             title="Habitación Triple, cama matrimonial y dos individuales"
-            price="1700"
+            price="2200"
             image="room-4.jpeg"
           />
           <Card
             title="Habitación Cuádruple, cama matrimonial y tres individuales"
-            price="1900"
+            price="2400"
             image="room-5.jpeg"
           />
         </div>
